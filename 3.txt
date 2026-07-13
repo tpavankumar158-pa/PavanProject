@@ -1,0 +1,4 @@
+class Product(models.Model):
+       ProId = models.IntegerField()
+       ProName = models.CharField(max_length)
+       ProPrice = models.IntegerField()
